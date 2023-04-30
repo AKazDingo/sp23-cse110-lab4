@@ -39,13 +39,13 @@
     * G: **'3undefined'**, undefined converts a string value of 'undefined'
     * H: **NaN**, the **-** symbol performs numerical subtraction, converting the string to the contained integer value. Subtracting by undefined results in NaN (Not a Number)
 
-14. Comparasion:
-    *A: **true**, because types being compared are different, '2' is converted to a number and 2 is greater than 1
-    *B: **false**, in a comparison between strings the value of the first character in both is compared, if equal then it goes to the next character of both strings. The character '2' is greater than the character '1', therefore it is false.
-    *C: **true**, because types being compared are different, '2'  is converted to a number and 2 == 2;
-    *D: **false**, a strict equality operator invoked on different types is always false
-    *E: **false**, because types being compared are different, true is converted to its numerical form 1, and 1 != 2
-    *F: **true**, Boolean(2) is true because any non zero number is considered true. The strict equality operator then evaluated true === true, which is true.
+14. Comparison:
+    * A: **true**, because types being compared are different, '2' is converted to a number and 2 is greater than 1
+    * B: **false**, in a comparison between strings the value of the first character in both is compared, if equal then it goes to the next character of both strings. The character '2' is greater than the character '1', therefore it is false.
+    * C: **true**, because types being compared are different, '2'  is converted to a number and 2 == 2;
+    * D: **false**, a strict equality operator invoked on different types is always false
+    * E: **false**, because types being compared are different, true is converted to its numerical form 1, and 1 != 2
+    * F: **true**, Boolean(2) is true because any non zero number is considered true. The strict equality operator then evaluated true === true, which is true.
 
 15. == is an equality operator that converts compatible types to numbers, whereas === is a strict equality operator that checks equality without type conversion. === will always return a false if objects of different types are compared.
 
