@@ -22,22 +22,25 @@
 
 11. The function returns [50, 100, 150], which is the list 'discounted' of the calculated discounted prices.
 
-12. *A:
-    *B:
-    *C:
-    *D:
-    *E:
+12. Notation for:
+    * A:
+    * B:
+    * C:
+    * D:
+    * E:
 
-13. *A: '32', one of the data types was a string, making the **+** symbol perform concatenation
-    *B: 1, the **-** symbol performs numerical subtraction, converting the string to its contained integer value
-    *C: 3, null converts to an integer value of 0
-    *D: '3null', null converts to a string value of 'null'
-    *E: 4, true converts to an integer value of 1
-    *F: 0, false and null both convert to their integer values of 0
-    *G: '3undefined', undefined converts a string value of 'undefined'
-    *H: NaN, the **-** symbol performs numerical subtraction, converting the string to the contained integer value. Subtracting by undefined results in NaN (Not a Number)
+13. Arithmetic:
+    * A: '32', one of the data types was a string, making the **+** symbol perform concatenation
+    * B: 1, the **-** symbol performs numerical subtraction, converting the string to its contained integer value
+    * C: 3, null converts to an integer value of 0
+    * D: '3null', null converts to a string value of 'null'
+    * E: 4, true converts to an integer value of 1
+    * F: 0, false and null both convert to their integer values of 0
+    * G: '3undefined', undefined converts a string value of 'undefined'
+    * H: NaN, the **-** symbol performs numerical subtraction, converting the string to the contained integer value. Subtracting by undefined results in NaN (Not a Number)
 
-14. *A: true, because types being compared are different, '2' is converted to a number and 2 is greater than 1
+14. Comparasion:
+    *A: true, because types being compared are different, '2' is converted to a number and 2 is greater than 1
     *B: false, in a comparison between strings the value of the first character in both is compared, if equal then it goes to the next character of both strings. The character '2' is greater than the character '1', therefore it is false.
     *C: true, because types being compared are different, '2'  is converted to a number and 2 == 2;
     *D: false, a strict equality operator invoked on different types is always false
