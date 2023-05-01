@@ -23,11 +23,11 @@
 11. The function returns [50, 100, 150], which is the list 'discounted' of the calculated discounted prices.
 
 12. Notation for:
-    * A:
-    * B:
-    * C:
-    * D:
-    * E:
+    * A: **student.name**
+    * B: **student["Grad Year"]**
+    * C: **student.greeting()**
+    * D: **student['Favorite Teacher'].name**
+    * E: **student.courseLoad[0]**
 
 13. Arithmetic:
     * A: **'32'**, one of the data types was a string, making the **+** symbol perform concatenation
@@ -51,8 +51,8 @@
 
 16. See part2-question16.js
 
-17. e
+17. The result that will be returned will be an array that is [2,4,6], as it called the function doSomething on each of the values in the input array and made a new array with those new values. doSomething returns 2 times whatever number is input, and our callback parameter is set to doSomething, making an array with double each of the values of our initial array.
 
 18. See part2-question18.js
 
-19. e
+19. The output will be: 1 4 3 2. This order can be explained by the fact that 1 and 4 are just simple output commands, but 3 and 2's output was made with the 'setTImeout' function with a delay of 1000 and 0 respectively. Even with the delay of 0ms, 3 was still output after 4, and the delay of 1000ms for 2 caused to to be output 1 second after the rest.
